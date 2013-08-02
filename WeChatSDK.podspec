@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LittleLaa/WeChatSDK_armv7_armv7s.git" }
   # , :tag => "0.0.1" 
   s.source_files = 'Library'
-  s.preserve_paths = "Library/.a"
+  s.preserve_paths = "Library/*.a"
   s.library   = 'libWeChatSDK_armv7_armv7s'
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/WeChatSDK/Library' }
 end
