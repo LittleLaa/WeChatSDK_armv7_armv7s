@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   # , :tag => "0.0.1" 
   s.source_files = 'Library'
   s.preserve_paths = "Library/*.a"
-  s.library   = 'libWeChatSDK_armv7_armv7s'
+  s.library   = 'WeChatSDK_armv7_armv7s'
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/WeChatSDK/Library"' }
 end
