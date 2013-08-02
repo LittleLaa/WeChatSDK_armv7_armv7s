@@ -5,7 +5,7 @@
 # To learn more about the attributes see http://docs.cocoapods.org/specification.html
 #
 Pod::Spec.new do |s|
-  s.name         = "wechat"
+  s.name         = "WeChatSDK"
   s.version      = "0.0.1"
   s.summary      = "A short description of wechat."
   s.homepage     = "http://EXAMPLE/wechat"
